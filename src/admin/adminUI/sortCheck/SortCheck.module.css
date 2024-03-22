@@ -1,0 +1,23 @@
+.sortSelect {
+    width: 250px;
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 7px;
+}
+
+.sortOption {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.checkLabel {
+    font-size: 15px;
+}
+
+.checkInput {
+    margin: 0.4rem;
+}
+

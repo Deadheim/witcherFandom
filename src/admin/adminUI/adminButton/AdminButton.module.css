@@ -1,0 +1,21 @@
+.adminButton {
+
+    height: 35px;
+    margin: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    font-size: 15px;
+
+    transition: all .2s linear;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.adminButton:hover {
+    background: #a7eea7;
+}
+

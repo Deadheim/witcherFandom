@@ -1,0 +1,79 @@
+.main {
+    width: 100%;
+}
+
+.mainInner {
+    width: 100%;
+    height: 900px;
+    background-blend-mode: overlay;
+    background-image: url("../assets/mainPage/witcherMain.png"), linear-gradient(rgb(0, 0, 0) 0%, transparent 60%), linear-gradient(90deg, rgb(0, 0, 0) 0%, transparent 60%);
+    background-size: cover;
+    display: flex;
+
+}
+
+.frontBlock {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    margin-top: 180px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    color: #D4D4D4;
+    margin-bottom: 15px;
+}
+
+.subTitle {
+    font-size: 17px;
+    font-weight: 400;
+    color: #FFFFFF;
+    opacity: .4;
+    margin-bottom: 25px;
+    line-height: 27px;
+    text-align: justify;
+}
+
+.charactersBlock {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    width: 100%;
+    background: #0C0F13;
+    color: rgba(255, 255, 255, 0.9);
+
+}
+.bestiaryBlock {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    width: 100%;
+    background-blend-mode: overlay;
+    background-image: url("../assets/mainPage/witcher_background.png"), linear-gradient(rgb(0, 0, 0) 0%, transparent 60%), linear-gradient(90deg, rgb(0, 0, 0) 0%, transparent 60%);
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.9);
+
+}
+.locationsBlock {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    width: 100%;
+    background: #0C0F13;
+    color: rgba(255, 255, 255, 0.9);
+
+}
+
+.nameBlock {
+    text-transform: uppercase;
+    font-size: 27px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.infoBlock {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

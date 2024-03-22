@@ -1,0 +1,25 @@
+.mainButton {
+    width: 360px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: #a12a2a;
+    border: 0;
+    color: #FFFFFF90;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 2px;
+
+    transition: all .2s linear;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+.mainButton:hover {
+    background-color: #FFFFFF;
+    opacity: .9;
+    color: #a12a2a;
+}

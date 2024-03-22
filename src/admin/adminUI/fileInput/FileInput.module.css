@@ -1,0 +1,26 @@
+.fileInput {
+
+    width: 250px;
+    height: 35px;
+    background: transparent;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+
+
+}
+
+.file {
+    display: none;
+}
+
+.fileSpan {
+    width: 100%;
+
+}

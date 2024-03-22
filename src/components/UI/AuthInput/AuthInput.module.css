@@ -1,0 +1,38 @@
+.authInput {
+    width: 400px;
+    height: 45px;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 17px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    outline: none;
+    overflow: hidden;
+    border: 2px solid transparent; /* Устанавливаем изначальную границу как прозрачную */
+    transition: border-top, border-right, border-left, border-bottom 0.2s linear; /* Делаем анимацию перехода цвета границы */
+
+
+
+}
+
+@keyframes borderAnimation {
+    0% {
+        border-top: 2px solid #00d9ff;
+    }
+    25% {
+        border-right: 2px solid #00d9ff;
+    }
+    50% {
+        border-bottom: 2px solid #00d9ff;
+    }
+    75% {
+        border-left: 2px solid #00d9ff;
+    }
+
+}
+
+/* Применяем анимацию к input */
+.authInput:focus {
+    animation: borderAnimation 2s infinite;
+}

@@ -1,0 +1,29 @@
+.mainBlock {
+    background: linear-gradient(129deg, rgba(0,0,0,1) 0%, rgba(29,45,48,1) 55%), linear-gradient(rgb(0, 0, 0) 0%, transparent 60%), linear-gradient(90deg, rgb(0, 0, 0) 0%, transparent 60%);
+    background-blend-mode: overlay;
+    background-size: cover;
+
+}
+
+.mainBlockInner {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.elements {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 27px;
+    color: #FFFFFF;
+    opacity: .8;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}

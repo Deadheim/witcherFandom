@@ -1,0 +1,74 @@
+.adminModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.adminModal.active {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modalInner {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.mainAdmin {
+
+}
+
+.mainAdminInner {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 17px;
+
+}
+th {
+    color: silver;
+    background-color: #000000;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.modalTable {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.tableCell {
+    border: 1px solid silver;
+    text-align: center;
+    height: 25px;
+    max-width: 100px;
+    overflow: hidden;
+
+
+}
+
+.adminTitle {
+    margin-bottom: 10px;
+    text-align: center;
+}
